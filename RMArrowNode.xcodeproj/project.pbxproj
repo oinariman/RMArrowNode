@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2D182631873E56A00AD1540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D182621873E56A00AD1540 /* Foundation.framework */; };
+		E2D182651873E56A00AD1540 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D182641873E56A00AD1540 /* CoreGraphics.framework */; };
+		E2D182671873E56A00AD1540 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D182661873E56A00AD1540 /* UIKit.framework */; };
+		E2D182691873E56A00AD1540 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D182681873E56A00AD1540 /* SpriteKit.framework */; };
+		E2D182891873E56B00AD1540 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D182881873E56B00AD1540 /* XCTest.framework */; };
+		E2D1828A1873E56B00AD1540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D182621873E56A00AD1540 /* Foundation.framework */; };
+		E2D1828B1873E56B00AD1540 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D182661873E56A00AD1540 /* UIKit.framework */; };
+		E2D182931873E56B00AD1540 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2D182911873E56B00AD1540 /* InfoPlist.strings */; };
+		E2D182951873E56B00AD1540 /* RMArrowNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D182941873E56B00AD1540 /* RMArrowNodeTests.m */; };
+		E2F5ECC01873E661007A21B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F5ECB41873E661007A21B5 /* Images.xcassets */; };
+		E2F5ECC11873E661007A21B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5ECB51873E661007A21B5 /* main.m */; };
+		E2F5ECC21873E661007A21B5 /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5ECB71873E661007A21B5 /* RMAppDelegate.m */; };
+		E2F5ECC41873E661007A21B5 /* RMScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5ECBB1873E661007A21B5 /* RMScene.m */; };
+		E2F5ECC51873E661007A21B5 /* RMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5ECBD1873E661007A21B5 /* RMViewController.m */; };
+		E2F5ECC91873E708007A21B5 /* RMArrowNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5ECC81873E708007A21B5 /* RMArrowNode.m */; };
+		E2F5ECCF1873E9B7007A21B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2F5ECCD1873E9B7007A21B5 /* InfoPlist.strings */; };
+		E2F5ECD218742595007A21B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F5ECCA1873E9AC007A21B5 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2D1828C1873E56B00AD1540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D182571873E56A00AD1540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D1825E1873E56A00AD1540;
+			remoteInfo = RMArrowNode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2D1825F1873E56A00AD1540 /* RMArrowNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMArrowNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D182621873E56A00AD1540 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2D182641873E56A00AD1540 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2D182661873E56A00AD1540 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2D182681873E56A00AD1540 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		E2D182871873E56B00AD1540 /* RMArrowNodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMArrowNodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D182881873E56B00AD1540 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E2D182901873E56B00AD1540 /* RMArrowNodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMArrowNodeTests-Info.plist"; sourceTree = "<group>"; };
+		E2D182921873E56B00AD1540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2D182941873E56B00AD1540 /* RMArrowNodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMArrowNodeTests.m; sourceTree = "<group>"; };
+		E2F5ECB41873E661007A21B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Example/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		E2F5ECB51873E661007A21B5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/main.m; sourceTree = SOURCE_ROOT; };
+		E2F5ECB61873E661007A21B5 /* RMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMAppDelegate.h; path = Example/RMAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		E2F5ECB71873E661007A21B5 /* RMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMAppDelegate.m; path = Example/RMAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		E2F5ECB81873E661007A21B5 /* RMArrowNode-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "RMArrowNode-Info.plist"; path = "Example/RMArrowNode-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E2F5ECB91873E661007A21B5 /* RMArrowNode-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RMArrowNode-Prefix.pch"; path = "Example/RMArrowNode-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		E2F5ECBA1873E661007A21B5 /* RMScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMScene.h; path = Example/RMScene.h; sourceTree = SOURCE_ROOT; };
+		E2F5ECBB1873E661007A21B5 /* RMScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMScene.m; path = Example/RMScene.m; sourceTree = SOURCE_ROOT; };
+		E2F5ECBC1873E661007A21B5 /* RMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMViewController.h; path = Example/RMViewController.h; sourceTree = SOURCE_ROOT; };
+		E2F5ECBD1873E661007A21B5 /* RMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMViewController.m; path = Example/RMViewController.m; sourceTree = SOURCE_ROOT; };
+		E2F5ECC71873E708007A21B5 /* RMArrowNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMArrowNode.h; sourceTree = "<group>"; };
+		E2F5ECC81873E708007A21B5 /* RMArrowNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMArrowNode.m; sourceTree = "<group>"; };
+		E2F5ECCB1873E9AC007A21B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Example/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		E2F5ECCE1873E9B7007A21B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Example/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2D1825C1873E56A00AD1540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D182651873E56A00AD1540 /* CoreGraphics.framework in Frameworks */,
+				E2D182671873E56A00AD1540 /* UIKit.framework in Frameworks */,
+				E2D182691873E56A00AD1540 /* SpriteKit.framework in Frameworks */,
+				E2D182631873E56A00AD1540 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D182841873E56B00AD1540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D182891873E56B00AD1540 /* XCTest.framework in Frameworks */,
+				E2D1828B1873E56B00AD1540 /* UIKit.framework in Frameworks */,
+				E2D1828A1873E56B00AD1540 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2D182561873E56A00AD1540 = {
+			isa = PBXGroup;
+			children = (
+				E2F5ECC61873E708007A21B5 /* RMArrowNode */,
+				E2D1826A1873E56A00AD1540 /* Example */,
+				E2D1828E1873E56B00AD1540 /* RMArrowNodeTests */,
+				E2D182611873E56A00AD1540 /* Frameworks */,
+				E2D182601873E56A00AD1540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2D182601873E56A00AD1540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1825F1873E56A00AD1540 /* RMArrowNode.app */,
+				E2D182871873E56B00AD1540 /* RMArrowNodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2D182611873E56A00AD1540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2D182621873E56A00AD1540 /* Foundation.framework */,
+				E2D182641873E56A00AD1540 /* CoreGraphics.framework */,
+				E2D182661873E56A00AD1540 /* UIKit.framework */,
+				E2D182681873E56A00AD1540 /* SpriteKit.framework */,
+				E2D182881873E56B00AD1540 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2D1826A1873E56A00AD1540 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5ECCA1873E9AC007A21B5 /* Main.storyboard */,
+				E2F5ECB61873E661007A21B5 /* RMAppDelegate.h */,
+				E2F5ECB71873E661007A21B5 /* RMAppDelegate.m */,
+				E2F5ECBA1873E661007A21B5 /* RMScene.h */,
+				E2F5ECBB1873E661007A21B5 /* RMScene.m */,
+				E2F5ECBC1873E661007A21B5 /* RMViewController.h */,
+				E2F5ECBD1873E661007A21B5 /* RMViewController.m */,
+				E2F5ECB41873E661007A21B5 /* Images.xcassets */,
+				E2D1826B1873E56A00AD1540 /* Supporting Files */,
+			);
+			name = Example;
+			path = RMArrowNode;
+			sourceTree = "<group>";
+		};
+		E2D1826B1873E56A00AD1540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5ECB81873E661007A21B5 /* RMArrowNode-Info.plist */,
+				E2F5ECB91873E661007A21B5 /* RMArrowNode-Prefix.pch */,
+				E2F5ECCD1873E9B7007A21B5 /* InfoPlist.strings */,
+				E2F5ECB51873E661007A21B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2D1828E1873E56B00AD1540 /* RMArrowNodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2D182941873E56B00AD1540 /* RMArrowNodeTests.m */,
+				E2D1828F1873E56B00AD1540 /* Supporting Files */,
+			);
+			path = RMArrowNodeTests;
+			sourceTree = "<group>";
+		};
+		E2D1828F1873E56B00AD1540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2D182901873E56B00AD1540 /* RMArrowNodeTests-Info.plist */,
+				E2D182911873E56B00AD1540 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2F5ECC61873E708007A21B5 /* RMArrowNode */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5ECC71873E708007A21B5 /* RMArrowNode.h */,
+				E2F5ECC81873E708007A21B5 /* RMArrowNode.m */,
+			);
+			path = RMArrowNode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2D1825E1873E56A00AD1540 /* RMArrowNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D182981873E56B00AD1540 /* Build configuration list for PBXNativeTarget "RMArrowNode" */;
+			buildPhases = (
+				E2D1825B1873E56A00AD1540 /* Sources */,
+				E2D1825C1873E56A00AD1540 /* Frameworks */,
+				E2D1825D1873E56A00AD1540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMArrowNode;
+			productName = RMArrowNode;
+			productReference = E2D1825F1873E56A00AD1540 /* RMArrowNode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2D182861873E56B00AD1540 /* RMArrowNodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D1829B1873E56B00AD1540 /* Build configuration list for PBXNativeTarget "RMArrowNodeTests" */;
+			buildPhases = (
+				E2D182831873E56B00AD1540 /* Sources */,
+				E2D182841873E56B00AD1540 /* Frameworks */,
+				E2D182851873E56B00AD1540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D1828D1873E56B00AD1540 /* PBXTargetDependency */,
+			);
+			name = RMArrowNodeTests;
+			productName = RMArrowNodeTests;
+			productReference = E2D182871873E56B00AD1540 /* RMArrowNodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2D182571873E56A00AD1540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ryosuke Mihara";
+				TargetAttributes = {
+					E2D182861873E56B00AD1540 = {
+						TestTargetID = E2D1825E1873E56A00AD1540;
+					};
+				};
+			};
+			buildConfigurationList = E2D1825A1873E56A00AD1540 /* Build configuration list for PBXProject "RMArrowNode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2D182561873E56A00AD1540;
+			productRefGroup = E2D182601873E56A00AD1540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2D1825E1873E56A00AD1540 /* RMArrowNode */,
+				E2D182861873E56B00AD1540 /* RMArrowNodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2D1825D1873E56A00AD1540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F5ECD218742595007A21B5 /* Main.storyboard in Resources */,
+				E2F5ECCF1873E9B7007A21B5 /* InfoPlist.strings in Resources */,
+				E2F5ECC01873E661007A21B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D182851873E56B00AD1540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D182931873E56B00AD1540 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2D1825B1873E56A00AD1540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F5ECC91873E708007A21B5 /* RMArrowNode.m in Sources */,
+				E2F5ECC51873E661007A21B5 /* RMViewController.m in Sources */,
+				E2F5ECC11873E661007A21B5 /* main.m in Sources */,
+				E2F5ECC41873E661007A21B5 /* RMScene.m in Sources */,
+				E2F5ECC21873E661007A21B5 /* RMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D182831873E56B00AD1540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D182951873E56B00AD1540 /* RMArrowNodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2D1828D1873E56B00AD1540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2D1825E1873E56A00AD1540 /* RMArrowNode */;
+			targetProxy = E2D1828C1873E56B00AD1540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2D182911873E56B00AD1540 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2D182921873E56B00AD1540 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2F5ECCA1873E9AC007A21B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F5ECCB1873E9AC007A21B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2F5ECCD1873E9B7007A21B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F5ECCE1873E9B7007A21B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2D182961873E56B00AD1540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2D182971873E56B00AD1540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2D182991873E56B00AD1540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/RMArrowNode-Prefix.pch";
+				INFOPLIST_FILE = "Example/RMArrowNode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2D1829A1873E56B00AD1540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/RMArrowNode-Prefix.pch";
+				INFOPLIST_FILE = "Example/RMArrowNode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E2D1829C1873E56B00AD1540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RMArrowNode.app/RMArrowNode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMArrowNode/RMArrowNode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RMArrowNodeTests/RMArrowNodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E2D1829D1873E56B00AD1540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RMArrowNode.app/RMArrowNode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMArrowNode/RMArrowNode-Prefix.pch";
+				INFOPLIST_FILE = "RMArrowNodeTests/RMArrowNodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2D1825A1873E56A00AD1540 /* Build configuration list for PBXProject "RMArrowNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D182961873E56B00AD1540 /* Debug */,
+				E2D182971873E56B00AD1540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D182981873E56B00AD1540 /* Build configuration list for PBXNativeTarget "RMArrowNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D182991873E56B00AD1540 /* Debug */,
+				E2D1829A1873E56B00AD1540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D1829B1873E56B00AD1540 /* Build configuration list for PBXNativeTarget "RMArrowNodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D1829C1873E56B00AD1540 /* Debug */,
+				E2D1829D1873E56B00AD1540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2D182571873E56A00AD1540 /* Project object */;
+}
